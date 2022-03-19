@@ -719,9 +719,13 @@ header .element p{
 .right-section .button{
     display: flex;
     align-items: center;
-    padding: 1rem 0 0 2rem;
+    padding: 1rem 2rem;
     font-size: 13px;
     color: #666666;
+}
+
+.right-section .button h3:hover{
+    cursor: pointer;
 }
 
 .right-section .button .icon{
